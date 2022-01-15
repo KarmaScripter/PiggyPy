@@ -1,11 +1,3 @@
-import os
-import io
-import datetime as dt
-import sqlite3 as sl
-import pandas as pd
-import pyodbc as db
-import openpyxl as xl
-
 class EmailBuilder():
     ''' Helper class for generating email messages '''
     __from = None
