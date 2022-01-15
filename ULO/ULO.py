@@ -1,3 +1,5 @@
+import pandas as pd
+
 class ULO:
     '''Defines the commitment class.'''
     __amount = None
