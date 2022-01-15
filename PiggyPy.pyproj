@@ -6,14 +6,16 @@
     <ProjectGuid>{dbf873ca-0718-42cf-8c87-e1b7221dfde5}</ProjectGuid>
     <ProjectHome />
     <StartupFile />
-    <SearchPath>..\..\compilers\py\python\venv\Scripts;..\..\compilers\py\python;..\..\compilers\py\pyvenv\venv;..\..\compilers\py\pyvenv\venv\Scripts;..\..\compilers\py\anaconda;..\..\compilers\py\miniconda;..\BudgetPy\venv\Scripts</SearchPath>
+    <SearchPath>..\..\compilers\py\python\venv\Scripts;..\..\compilers\py\python;..\..\compilers\py\pyvenv\venv;..\..\compilers\py\pyvenv\venv\Scripts;..\..\compilers\py\anaconda;..\..\compilers\py\miniconda;..\BudgetPy\venv\Scripts;..\..\compilers\py\pyvenv\venv;..\..\..\..\..\Program Files\IronPython 3.4</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <InterpreterId>Global|VisualStudio|venv</InterpreterId>
+    <InterpreterId>Global|VisualStudio|IronPython 3.4</InterpreterId>
     <Name>PiggyPy</Name>
     <TestFramework>Pytest</TestFramework>
+    <SuppressConfigureTestFrameworkPrompt>true</SuppressConfigureTestFrameworkPrompt>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
@@ -8196,26 +8198,6 @@
     <Content Include="venv\Lib\site-packages\pyodbc.cp39-win_amd64.pyd" />
     <Content Include="venv\Lib\site-packages\README.txt" />
     <Content Include="venv\Lib\site-packages\_ruamel_yaml.cp39-win_amd64.pyd" />
-    <Content Include="venv\LICENSE.txt" />
-    <Content Include="venv\NEWS.txt" />
-    <Content Include="venv\py.ico" />
-    <Content Include="venv\pyodbc.pyi" />
-    <Content Include="venv\python.exe" />
-    <Content Include="venv\python.pdb" />
-    <Content Include="venv\python3.dll" />
-    <Content Include="venv\python39.dll" />
-    <Content Include="venv\python39.pdb" />
-    <Content Include="venv\python39_d.dll" />
-    <Content Include="venv\python39_d.pdb" />
-    <Content Include="venv\python3_d.dll" />
-    <Content Include="venv\pythonw.exe" />
-    <Content Include="venv\pythonw.pdb" />
-    <Content Include="venv\pythonw_d.exe" />
-    <Content Include="venv\pythonw_d.pdb" />
-    <Content Include="venv\python_d.exe" />
-    <Content Include="venv\python_d.pdb" />
-    <Content Include="venv\vcruntime140.dll" />
-    <Content Include="venv\vcruntime140_1.dll" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="db\" />
@@ -8983,17 +8965,7 @@
     <Folder Include="venv\Lib\site-packages\pickleshare-0.7.5.dist-info\" />
   </ItemGroup>
   <ItemGroup>
-    <Interpreter Include="venv\env\">
-      <Id>env</Id>
-      <Version>3.7</Version>
-      <Description>env (Python 3.7 (64-bit))</Description>
-      <InterpreterPath>Scripts\python.exe</InterpreterPath>
-      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
-      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
-      <Architecture>X64</Architecture>
-    </Interpreter>
-  </ItemGroup>
-  <ItemGroup>
+    <InterpreterReference Include="Global|VisualStudio|IronPython 3.4" />
     <InterpreterReference Include="Global|VisualStudio|venv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
