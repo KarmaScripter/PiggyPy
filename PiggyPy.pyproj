@@ -33,9 +33,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Account\__init__.py" />
-    <Compile Include="Activity\Activity.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="Activity\Activity.py" />
     <Compile Include="Activity\__init__.py" />
     <Compile Include="AllowanceHolder\AllowanceHolder.py">
       <SubType>Code</SubType>
@@ -48,16 +46,12 @@
     <Compile Include="BudgetFile\BudgetFile.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="BudgetFiscalYear\BudgetFiscalYear.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="BudgetFiscalYear\BudgetFiscalYear.py" />
     <Compile Include="BudgetFiscalYear\__init__.py" />
     <Compile Include="BudgetFolder\BudgetFolder.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="BudgetObjectClass\BudgetObjectClass.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="BudgetObjectClass\BudgetObjectClass.py" />
     <Compile Include="BudgetObjectClass\__init__.py" />
     <Compile Include="BudgetPath\BudgetPath.py">
       <SubType>Code</SubType>
@@ -77,9 +71,7 @@
     <Compile Include="BudgetPath\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Commitment\Commitment.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="Commitment\Commitment.py" />
     <Compile Include="Commitment\__init__.py" />
     <Compile Include="CriteriaBuilder\CriteriaBuilder.py">
       <SubType>Code</SubType>
@@ -105,9 +97,7 @@
     <Compile Include="DataTable\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Deobligation\Deobligation.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="Deobligation\Deobligation.py" />
     <Compile Include="Deobligation\__init__.py" />
     <Compile Include="EmailBuilder\EmailBuilder.py">
       <SubType>Code</SubType>
@@ -121,85 +111,45 @@
     <Compile Include="ExcelFile\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Expenditure\Expenditure.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="Expenditure\Expenditure.py" />
     <Compile Include="Expenditure\__init__.py" />
-    <Compile Include="FinanceObjectClass\FinanceObjectClass.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="FinanceObjectClass\FinanceObjectClass.py" />
     <Compile Include="FinanceObjectClass\__init__.py" />
-    <Compile Include="Fund\Fund.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="Fund\Fund.py" />
     <Compile Include="Fund\__init__.py" />
-    <Compile Include="Goal\Goal.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="Goal\Goal.py" />
     <Compile Include="Goal\__init__.py" />
-    <Compile Include="HeadquartersOffice\HeadquartersOffice.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="HeadquartersOffice\HeadquartersOffice.py" />
     <Compile Include="HeadquartersOffice\__init__.py" />
-    <Compile Include="Holiday\Holiday.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="Holiday\Holiday.py" />
     <Compile Include="Holiday\__init__.py" />
-    <Compile Include="HumanResourceOrganization\HumanResourceOrganization.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="HumanResourceOrganization\HumanResourceOrganization.py" />
     <Compile Include="HumanResourceOrganization\__init__.py" />
-    <Compile Include="ItProjectCode\ItProjectCode.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="ItProjectCode\ItProjectCode.py" />
     <Compile Include="ItProjectCode\__init__.py" />
-    <Compile Include="NationalProgram\NationalProgram.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="NationalProgram\NationalProgram.py" />
     <Compile Include="NationalProgram\__init__.py" />
-    <Compile Include="Objective\Objective.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="Objective\Objective.py" />
     <Compile Include="Objective\__init__.py" />
-    <Compile Include="Obligation\Obligation.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="Obligation\Obligation.py" />
     <Compile Include="Obligation\__init__.py" />
-    <Compile Include="OpenCommitment\OpenCommitment.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="OpenCommitment\OpenCommitment.py" />
     <Compile Include="OpenCommitment\__init__.py" />
-    <Compile Include="Organization\Organization.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="Organization\Organization.py" />
     <Compile Include="Organization\__init__.py" />
-    <Compile Include="ProgramArea\ProgramArea.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="ProgramArea\ProgramArea.py" />
     <Compile Include="ProgramArea\__init__.py" />
-    <Compile Include="ProgramProject\ProgramProject.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="ProgramProject\ProgramProject.py" />
     <Compile Include="ProgramProject\__init__.py" />
-    <Compile Include="ProgramResultsCode\ProgramResultsCode.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="ProgramResultsCode\ProgramResultsCode.py" />
     <Compile Include="ProgramResultsCode\__init__.py" />
-    <Compile Include="RegionalOffice\RegionalOffice.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="RegionalOffice\RegionalOffice.py" />
     <Compile Include="RegionalOffice\__init__.py" />
-    <Compile Include="ResourcePlanningOffice\ResourcePlanningOffice.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="ResourcePlanningOffice\ResourcePlanningOffice.py" />
     <Compile Include="ResourcePlanningOffice\__init__.py" />
-    <Compile Include="ResponsibilityCenter\ResponsibilityCenter.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="ResponsibilityCenter\ResponsibilityCenter.py" />
     <Compile Include="ResponsibilityCenter\__init__.py" />
-    <Compile Include="SiteProject\SiteProject.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="SiteProject\SiteProject.py" />
     <Compile Include="SiteProject\__init__.py" />
     <Compile Include="Source\Source.py">
       <SubType>Code</SubType>
@@ -231,9 +181,7 @@
     <Compile Include="SqlServerReference\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ULO\ULO.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="ULO\ULO.py" />
     <Compile Include="ULO\__init__.py" />
     <Compile Include="venv\Lib\abc.py" />
     <Compile Include="venv\Lib\aifc.py" />
@@ -3437,9 +3385,7 @@
     <Compile Include="venv\Lib\_weakrefset.py" />
     <Compile Include="venv\Lib\__future__.py" />
     <Compile Include="venv\Lib\__phello__.foo.py" />
-    <Compile Include="WorkCode\WorkCode.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="WorkCode\WorkCode.py" />
     <Compile Include="WorkCode\__init__.py" />
   </ItemGroup>
   <ItemGroup>
